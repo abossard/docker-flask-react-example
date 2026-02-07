@@ -10,7 +10,7 @@ COPY frontend ./
 RUN npm run build
 
 # Stage 2: Setup backend and serve the app
-FROM python:3.13.0
+FROM python:3.14.3
 
 WORKDIR /app/backend
 
